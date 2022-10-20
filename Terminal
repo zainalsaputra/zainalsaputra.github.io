@@ -1,6 +1,6 @@
-git init
-git add README.md / .
-git commit -m "steppsdjcd" / 'sfcdfa'
+git init (1)
+git add README.md / . (2)
+git commit -m "steppsdjcd" / 'sfcdfa' (3)
 git branch -M main
 git remote add origin https://www
-git push -u origin main / git push
+git push -u origin main / git push (4)
