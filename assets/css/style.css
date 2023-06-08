@@ -68,7 +68,7 @@ h6 {
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
-/* #preloader {
+#preloader {
   position: fixed;
   top: 0;
   left: 0;
@@ -90,8 +90,8 @@ h6 {
   border-radius: 50%;
   width: 60px;
   height: 60px;
-  -webkit-animation: animate-preloader 1s linear infinite;
-  animation: animate-preloader 1s linear infinite;
+  -webkit-animation: animate-preloader 0.55s linear infinite;
+  animation: animate-preloader 0.55s linear infinite;
 }
 
 @-webkit-keyframes animate-preloader {
@@ -112,10 +112,10 @@ h6 {
   100% {
     transform: rotate(360deg);
   }
-} */
+}
 
 /*loader*/
-.preloader,
+/* .preloader,
 .preloader:before,
 .preloader:after {
   background: #0563bb;
@@ -172,7 +172,7 @@ h6 {
     box-shadow: 0 -2em #0563bb;
     height: 5em;
   }
-}
+} */
 
 /*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
