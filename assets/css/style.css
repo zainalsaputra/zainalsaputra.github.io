@@ -68,7 +68,7 @@ h6 {
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
-#preloader {
+/* #preloader {
   position: fixed;
   top: 0;
   left: 0;
@@ -112,30 +112,30 @@ h6 {
   100% {
     transform: rotate(360deg);
   }
-}
+} */
 
 /*loader*/
-.loader,
-.loader:before,
-.loader:after {
+.preloader,
+.preloader:before,
+.preloader:after {
   background: #0563bb;
   -webkit-animation: load1 1s infinite ease-in-out;
   animation: load1 1s infinite ease-in-out;
   width: 1em;
   height: 4em;
 }
-.loader:before,
-.loader:after {
+.preloader:before,
+.preloader:after {
   position: absolute;
   top: 0;
   content: "";
 }
-.loader:before {
+.preloader:before {
   left: -1.5em;
   -webkit-animation-delay: -0.32s;
   animation-delay: -0.32s;
 }
-.loader {
+.preloader {
   text-indent: -9999em;
   margin: 88px auto;
   position: relative;
@@ -146,7 +146,7 @@ h6 {
   -webkit-animation-delay: -0.16s;
   animation-delay: -0.16s;
 }
-.loader:after {
+.preloader:after {
   left: 1.5em;
 }
 @-webkit-keyframes load1 {
