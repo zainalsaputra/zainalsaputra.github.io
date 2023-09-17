@@ -1798,6 +1798,11 @@ section {
   .entry #title {
     text-align: center;
   }
+
+  .blog .entry .entry-content .read-more {
+    -moz-text-align-last: center;
+    text-align-last: center;
+  }
 }
 
 .entry-title {
