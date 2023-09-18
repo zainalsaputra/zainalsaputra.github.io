@@ -1778,23 +1778,20 @@ section {
   height: 440px;
 }
 
+/* Mobile Responsive */
 @media (max-width: 425px) {
   .entry #vid {
     width: 100%;
     height: 157px;
     margin: 1px 0px 0px 1px;
   }
-}
 
-@media (max-width: 425px) {
   .entry #img {
     width: 100%;
     height: 172px;
     margin: 1px 0px 0px 1px;
   }
-}
 
-@media (max-width: 425px) {
   .entry #title {
     text-align: center;
   }
@@ -1803,10 +1800,22 @@ section {
     -moz-text-align-last: center;
     text-align-last: center;
   }
+
+  .blog .sidebar {
+    display: none;
+  }
+
+  .section-title p {
+    text-align: justify;
+    /* padding-bottom: ; */
+  }
+  .about .section-title p {
+    text-align: center;
+  }
 }
 
 .entry-title {
-  text-align: center;
+  text-align: justify;
 }
 
 .entry-content p {
